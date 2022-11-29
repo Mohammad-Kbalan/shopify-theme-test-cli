@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Bangers|Montserrat&display=swap');
+
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup-onload{
+width: 100%;
+margin: 0 auto;
+  top: 4%;
+display: none;
+position: fixed;
+z-index: 101;
+}
+.cnt223{
+min-width: 250px;
+width: 400px;
+  min-height: 150px;
+/* height: 450px; */
+margin: 1% auto;
+background: #f3f3f3;
+position: relative;
+z-index: 103;
+padding: 35px;
+box-shadow: 0 2px 5px #000;
+}
+.cnt223 p{
+clear: both;
+/*     color: #555555; */
+    /* text-align: justify; */
+/*     font-size: 20px; */
+/*     font-family: sans-serif; */
+}
+.cnt223 a{
+      font-weight: 300;
+    text-transform: uppercase;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #eb883a;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 40px 10px 40px;
+ 
+}
+.popup-button-text{
+   font-weight: 300;
+    text-transform: uppercase;
+  font-family: "Montserrat", Sans-serif;
+}
+   
+
+.cnt223 .x{
+float: right;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+} 
+.cnt223 .x:hover{
+cursor: pointer;
+}
+
+.wpar-popup-content{
+  text-align: center;
+}
+
+.elementor-image {
+margin: 0 auto;
+
+
+}
+img {
+/*       max-width: 200px; */
+/*   width: 100%; */
+      width: 60%;
+      height: auto;
+    max-width: 100%;
+      vertical-align: middle;
+    display: inline-block;
+}
+
+.heading-title {
+      color: #282828;
+    font-family: "Bangers", Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.text-med{
+   color: #000000;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+   
+
+.small-text{
+      color: #000000;
+    font-family: "Bai Jamjuree";
+    font-size: 9px;
+    font-weight: 100;
+    line-height: 1em;
+  padding-bottom: 20px;
+}
