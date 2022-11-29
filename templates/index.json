@@ -209,7 +209,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "popup-gate" :{
+      "type" : "popup-gate-model" ,
+      "settings" : {
+
+      }
     }
+
   },
   "order": [
     "image_banner",
@@ -217,6 +224,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "popup-gate"
   ]
 }
